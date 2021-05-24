@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>这是第一篇测试</title>
+      <link href="2021/05/25/%E8%BF%99%E6%98%AF%E7%AC%AC%E4%B8%80%E7%AF%87%E6%B5%8B%E8%AF%95/"/>
+      <url>2021/05/25/%E8%BF%99%E6%98%AF%E7%AC%AC%E4%B8%80%E7%AF%87%E6%B5%8B%E8%AF%95/</url>
+      
+        <content type="html"><![CDATA[<h1>测试</h1><p>这是一个测试</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> -记录 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> -记录 -学习 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Hello World</title>
       <link href="2021/05/24/hello-world/"/>
       <url>2021/05/24/hello-world/</url>
