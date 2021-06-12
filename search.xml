@@ -4,6 +4,32 @@
   
     
     <entry>
+      <title>射频功放设计——功放相关指标</title>
+      <link href="2021/06/12/%E5%B0%84%E9%A2%91%E5%8A%9F%E6%94%BE%E8%AE%BE%E8%AE%A1%E2%80%94%E2%80%94%E5%8A%9F%E6%94%BE%E7%9B%B8%E5%85%B3%E6%8C%87%E6%A0%87/"/>
+      <url>2021/06/12/%E5%B0%84%E9%A2%91%E5%8A%9F%E6%94%BE%E8%AE%BE%E8%AE%A1%E2%80%94%E2%80%94%E5%8A%9F%E6%94%BE%E7%9B%B8%E5%85%B3%E6%8C%87%E6%A0%87/</url>
+      
+        <content type="html"><![CDATA[<h1>&#x529F;&#x653E;&#x76F8;&#x5173;&#x6307;&#x6807;</h1><h2 id="&#x589E;&#x76CA;">&#x589E;&#x76CA;</h2><p>&#x529F;&#x653E;&#x4F5C;&#x4E3A;&#x5C04;&#x9891;&#x53D1;&#x5C04;&#x7CFB;&#x7EDF;&#x9664;&#x5929;&#x7EBF;&#x4EE5;&#x5916;&#x7684;&#x6700;&#x540E;&#x4E00;&#x7EA7;&#xFF0C;&#x5B8C;&#x6210;&#x5BF9;&#x53D1;&#x5C04;&#x4FE1;&#x53F7;&#x529F;&#x7387;&#x653E;&#x5927;&#x7684;&#x4F5C;&#x7528;&#xFF0C;&#x589E;&#x76CA;&#x662F;&#x5176;&#x4F5C;&#x4E3A;&#x653E;&#x5927;&#x5668;&#x7684;&#x5173;&#x952E;&#x6307;&#x6807;&#xFF0C;&#x529F;&#x653E;&#x7684;&#x589E;&#x76CA;&#x8868;&#x8FF0;&#x4E3A;<br>$$<br>G_P(dB)=10log{P_{out(W)} \over P_{in(W)}} dBm = P_{out}(dBm)-P_{in}(dBm)<br>$$<br>&#x968F;&#x7740;&#x8F93;&#x5165;&#x4FE1;&#x53F7;&#x7684;&#x589E;&#x5927;&#xFF0C;&#x529F;&#x653E;&#x7684;&#x589E;&#x76CA;&#x4F1A;&#x53D8;&#x5C0F;&#xFF0C;&#x5373;&#x589E;&#x76CA;&#x4EA7;&#x751F;&#x538B;&#x7F29;&#xFF0C;&#x6709;&#x65F6;&#x5019;&#xFF0C;&#x4F1A;&#x6709;&#x5C0F;&#x4FE1;&#x53F7;&#x589E;&#x76CA;&#x4E0E;&#x5927;&#x4FE1;&#x53F7;&#x589E;&#x76CA;&#x7684;&#x8BF4;&#x6CD5;&#x3002;</p><h2 id="&#x589E;&#x76CA;&#x5E73;&#x5766;&#x5EA6;">&#x589E;&#x76CA;&#x5E73;&#x5766;&#x5EA6;</h2><p>&#x589E;&#x76CA;&#x5E73;&#x5766;&#x5EA6;&#x63CF;&#x8FF0;&#x529F;&#x653E;&#x589E;&#x76CA;&#x5728;&#x5E26;&#x5BBD;&#x5185;&#x7684;&#x53D8;&#x5316;&#x60C5;&#x51B5;&#xFF0C;&#x7406;&#x60F3;&#x60C5;&#x51B5;&#x4E0B;&#xFF0C;&#x8981;&#x6C42;&#x529F;&#x653E;&#x5728;&#x5E26;&#x5BBD;&#x5185;&#x589E;&#x76CA;&#x4FDD;&#x6301;&#x4E0D;&#x53D8;&#xFF0C;&#x5B9E;&#x9645;&#x4E0A;&#xFF0C;&#x5404;&#x79CD;&#x539F;&#x56E0;&#x5BFC;&#x81F4;&#x5176;&#x6709;&#x53D8;&#x5316;&#x3002;&#x589E;&#x76CA;&#x5E73;&#x5766;&#x5EA6;&#x63CF;&#x8FF0;&#x4E3A;<br>$$<br>\Delta G = {G_{max}-G_{min} \over 2}<br>$$</p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>射频功放设计——Doherty相关论文笔记</title>
+      <link href="2021/06/12/%E5%B0%84%E9%A2%91%E5%8A%9F%E6%94%BE%E8%AE%BE%E8%AE%A1%E2%80%94%E2%80%94Doherty%E7%9B%B8%E5%85%B3%E8%AE%BA%E6%96%87%E7%AC%94%E8%AE%B0/"/>
+      <url>2021/06/12/%E5%B0%84%E9%A2%91%E5%8A%9F%E6%94%BE%E8%AE%BE%E8%AE%A1%E2%80%94%E2%80%94Doherty%E7%9B%B8%E5%85%B3%E8%AE%BA%E6%96%87%E7%AC%94%E8%AE%B0/</url>
+      
+        <content type="html"><![CDATA[<h1>Doherty&#x529F;&#x653E;&#x8BBE;&#x8BA1;</h1><h2 id="&#x76F8;&#x5173;&#x80CC;&#x666F;">&#x76F8;&#x5173;&#x80CC;&#x666F;</h2><p>&#x56E0;&#x4E3A;&#x4E3A;&#x4E86;&#x5728;&#x6709;&#x9650;&#x7684;&#x4FE1;&#x53F7;&#x5E26;&#x5BBD;&#x5185;&#xFF0C;&#x63D0;&#x4F9B;&#x8DB3;&#x591F;&#x5927;&#x7684;&#x6570;&#x636E;&#x901F;&#x7387;&#xFF0C;&#x4E8E;&#x662F;&#x5728;&#x73B0;&#x4EE3;&#x901A;&#x4FE1;&#x4E2D;&#x4F7F;&#x7528;&#x4E86;&#x5404;&#x79CD;&#x590D;&#x6742;&#x7684;&#x4FE1;&#x53F7;&#x8C03;&#x5236;&#x65B9;&#x5F0F;&#xFF0C;&#x5BFC;&#x81F4;&#x8C03;&#x5236;&#x540E;&#x7684;&#x4FE1;&#x53F7;&#x7684;&#x5CF0;&#x5747;&#x6BD4;&#x975E;&#x5E38;&#x9AD8;&#xFF0C;&#x4E8E;&#x662F;&#x5BFC;&#x81F4;&#x5C04;&#x9891;&#x529F;&#x653E;&#x4EA7;&#x751F;&#x975E;&#x5E38;&#x4E25;&#x91CD;&#x7684;&#x5931;&#x771F;&#xFF0C;&#x4E3A;&#x4E86;&#x964D;&#x4F4E;&#x4FE1;&#x53F7;&#x7684;&#x5931;&#x771F;&#xFF0C;&#x9700;&#x8981;&#x56DE;&#x9000;&#x4E00;&#x5B9A;&#x7684;&#x529F;&#x7387;&#x503C;&#xFF0C;&#x8FD9;&#x53C8;&#x5BFC;&#x81F4;&#x529F;&#x653E;&#x7684;&#x6548;&#x7387;&#x975E;&#x5E38;&#x4F4E;&#x3002;</p><p><code>&#x529F;&#x653E;&#x7684;&#x6548;&#x7387;&#x4E0E;&#x7EBF;&#x6027;&#x5EA6;&#x4E4B;&#x95F4;&#x4E92;&#x76F8;&#x77DB;&#x76FE;</code></p><p>&#x7406;&#x8BBA;&#x4E0A;&#x5BF9;&#x4E8E;&#x4E00;&#x4E2A;&#x529F;&#x653E;&#xFF0C;&#x5982;&#x679C;&#x6211;&#x4EEC;&#x4E0D;&#x91C7;&#x53D6;&#x4E00;&#x4E9B;&#x5FC5;&#x8981;&#x7684;&#x77EB;&#x6B63;&#x63AA;&#x65BD;&#xFF0C;&#x529F;&#x653E;&#x7684;&#x9AD8;&#x6548;&#x7387;&#x6C38;&#x8FDC;&#x662F;&#x727A;&#x7272;&#x4E86;&#x5176;&#x7EBF;&#x6027;&#x5EA6;&#xFF1B;&#x53CD;&#x4E4B;&#xFF0C;&#x529F;&#x653E;&#x826F;&#x597D;&#x7684;&#x7EBF;&#x6027;&#x5EA6;&#x662F;&#x4EE5;&#x727A;&#x7272;&#x5176;&#x6548;&#x7387;&#x4E3A;&#x4EE3;&#x4EF7;&#x3002;</p><p><strong>==Doherty&#x529F;&#x653E;&#x7ED3;&#x6784;&#x662F;&#x4E3A;&#x4E86;&#x6298;&#x4E2D;&#x6548;&#x7387;&#x4E0E;&#x7EBF;&#x6027;&#x5EA6;&#x7684;&#x77DB;&#x76FE;&#x3002;==</strong></p><h2 id="&#x8D1F;&#x8F7D;&#x7275;&#x5F15;&#x7406;&#x8BBA;">&#x8D1F;&#x8F7D;&#x7275;&#x5F15;&#x7406;&#x8BBA;</h2><p>Doherty&#x529F;&#x653E;&#x7684;&#x6838;&#x5FC3;&#x662F;&#x57FA;&#x4E8E;<strong>&#x8D1F;&#x8F7D;&#x7275;&#x5F15;&#x7406;&#x8BBA;</strong></p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>通信总线学习笔记——SPI</title>
       <link href="2021/06/11/%E9%80%9A%E4%BF%A1%E6%80%BB%E7%BA%BF%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%E2%80%94%E2%80%94SPI/"/>
       <url>2021/06/11/%E9%80%9A%E4%BF%A1%E6%80%BB%E7%BA%BF%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%E2%80%94%E2%80%94SPI/</url>
