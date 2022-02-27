@@ -4,13 +4,25 @@
   
     
     <entry>
-      <title>“功放基本模型推导”</title>
+      <title>功放基本模型推导</title>
       <link href="/2022/02/27/%E5%8A%9F%E6%94%BE%E5%9F%BA%E6%9C%AC%E6%A8%A1%E5%9E%8B%E6%8E%A8%E5%AF%BC/"/>
       <url>/2022/02/27/%E5%8A%9F%E6%94%BE%E5%9F%BA%E6%9C%AC%E6%A8%A1%E5%9E%8B%E6%8E%A8%E5%AF%BC/</url>
       
         <content type="html"><![CDATA[]]></content>
       
       
+      <categories>
+          
+          <category> 笔记 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 功放 </tag>
+            
+        </tags>
       
     </entry>
     
@@ -69,7 +81,7 @@
     
     
     <entry>
-      <title>功放论文学习笔记</title>
+      <title>功放论文学习笔记——有源负载调试技术</title>
       <link href="/2021/12/27/%E5%8A%9F%E6%94%BE%E8%AE%BA%E6%96%87%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
       <url>/2021/12/27/%E5%8A%9F%E6%94%BE%E8%AE%BA%E6%96%87%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</url>
       
